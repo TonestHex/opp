@@ -54,7 +54,7 @@ class DownloadApp:
 
         menu.add_cascade(label='Menu', menu=menu1)
 
-        menu1.add_command(label='about me', command=lambda: webbrowser.open('https://blog.csdn.net/zwx19921215'))
+       
 
         menu1.add_command(label='exit', command=lambda: self.root.quit())
 
